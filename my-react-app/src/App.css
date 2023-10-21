@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(244, 220, 245);
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #975870;
+  color: white;
+  border: none;
+}
+
+button[type='reset'] {
+  background-color: #ccc;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
